@@ -1,0 +1,40 @@
+body { /*esta etiqueta selecciona todo lo que hay en el body*/
+    background: steelblue; /*asignamos un color azul de fondo*/
+    font-family: sans-serif; /*asignamos el estilo de los datos*/
+    text-align: center; /*asiganmos que el texto esté alineado en el centro*/
+  }
+  
+  #tablero { /*esta etiqueta selecciona lo que está dentro del id tablero*/
+    margin-top: 50px; /*asignamos que el margen superior sea de 50px*/
+    background: url(http://img.freepik.com/free-photo/wooden-texture_1160-686.jpg?size=338&amp;ext=jpg); /*asignamos que el fondo del tablero tenga una imagen*/
+    box-shadow: 0 10px 10px -6px rgba(0, 0, 0, .6); /*asignamos que lo que hay en el tablero tenga sombras*/
+    border-radius: 3px; /*asignamos el radio del borde*/
+    border-collapse: collapse; /*asignamos el modelo de borde*/
+    height: 400px; /*asignamos la altura del tablero*/
+    width: 400px; /*asignamos la anchura del tablero*/
+    position: absolute; /*asignamos la posición del tablero*/
+    top: 30px; /*asignamos el valor del margen superior*/
+    right: 0; /*asignamos el valor del margen derecho*/
+    bottom: 0; /*asignamos el valor del margen inferior*/
+    left: 0; /*asignamos el valor del margen izquierdo*/
+    margin: auto; /*asignamos el margen automático*/
+  }
+  
+  #tablero div div { /*esta etiqueta selecciona a los div que están contenidos dentro de los div que a su vez están contenidos en el div tablero*/
+    color: #222; /*asignamos el color*/
+    float: left; /*asignamos que los elementos vayan hacía la izquierda*/
+    font-size: 36px; /*asignamos el tamaño de los datos*/
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, .6); /*asignamos que los datos tengan sombras de color blanco*/
+    width: 50px; /*asignamos la anchura de los datos*/
+    height: 50px; /*asignamos la altura de los datos*/
+  }
+  
+  #tablero div:nth-child(odd) div:nth-child(even), /*esta etiqueta se refiere a los div que están contenidos en el div tablero, concretamente los cuadros pares de las filas impares*/
+  #tablero div:nth-child(even) div:nth-child(odd) { /*esta etiqueta se refiere a los div que están contenidos en el div tablero, concretamente los cuadros imapres de las filas pares*/
+    background: rgba(0, 0, 0, .4); /*asignamos un fondo negro*/
+  }
+  
+  #tablero div:nth-child(n+7) div { /*esta etiqueta se refiere a los div que están contenidos en el div tablero, concretamente desde la fila número siete hasta abajo*/
+    color: #fff; /*asignamos un color blanco*/
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6); /*asignamos que los datos tengan sombras de color negro*/
+  }

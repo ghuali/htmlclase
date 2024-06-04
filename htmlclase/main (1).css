@@ -1,0 +1,173 @@
+/* Layout. */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aprende {
+    display: grid;
+    grid-template: 
+    " area1 area2 ";
+
+    
+}
+
+
+
+.aprende-izquierda {
+    grid-area: area1,main1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.aprende-derecha {
+    grid-area: area2,main2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cursos {
+    display: grid;
+    grid-template: 
+        "cur01" auto
+        "cur02" auto
+        "cur03" auto
+        "cur04" auto /
+         1fr;
+    justify-items: center;       
+    align-items: center;
+    row-gap: 10px;
+}
+.titulo       {grid-area: cur01;}
+.descripcion  {grid-area: cur02;}
+.tarjetas     {grid-area: cur03;}
+.boton-cursos {grid-area: cur04;}
+.tarjetas {
+    display: flex;
+    flex-direction:row;
+    
+    
+    
+
+    
+}
+
+.tarjeta { 
+    border: solid 1px ;
+    margin: 15px; 
+    padding: 15px 
+}
+
+
+/* Estilos. */
+main {
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+.aprende {
+    width: 100%;
+    max-width: 1200px;
+    padding: 40px 40px 0 40px;
+} 
+.aprende-izquierda h1 {
+    font-size: 50px;
+    font-weight: 700;
+} 
+.aprende-izquierda p {
+    margin: 20px 0;
+    font-size: 22px;
+    line-height: 2;
+}
+.boton-verde {
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #34d16e;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.boton-verde:hover {
+    background-color: #116035;  
+}
+.aprende-derecha {
+    margin-top: 20px;
+}
+.aprende-derecha img {
+    width: 340px;
+    box-shadow: 40px 40px 0 0 #a7ebc0;
+}
+
+
+.cursos {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 140px;
+}
+.cursos > h2 {
+    font-size: 35px;
+    font-weight: 600;    
+    text-align: center;
+}
+.cursos > p {
+    font-size: 17px;  
+    line-height: 1.7;  
+    text-align: center;
+}
+
+.tarjeta {
+    width: 220px;
+    height: 100%;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.tarj-logo img {
+    height: 73px;
+    max-width: 90px;    
+}
+.tarj-curso {
+    text-decoration: none;
+}
+.tarj-curso h3 {
+    font-size: 18px;
+    font-weight: 500; 
+    color: #010101;  
+}
+.tarj-boton {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #34d16e;
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    border: solid 1px #34d16e;
+
+    
+}
+.tarj-boton:hover {
+    background-color: #34d16e;
+    color: #fff;
+}   
+.tar1{
+    grid-area: "ta1";
+
+}
+.tar2{
+    grid-area: "ta2"
+}
+.tar3{
+    grid-area: "ta3"
+}
+.t4{
+    grid-area: "ta5"
+}

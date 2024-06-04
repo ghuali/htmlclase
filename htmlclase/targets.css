@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+#tarjetas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tarjetas2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.tarjeta{
+    display: flex;
+    width: 300px;
+    height: 200px;
+}
+.Atarjeta{
+    padding: 20px;
+    border: solid 2px rgb(241, 241, 241);
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+}
+.Atarjeta:hover{
+    background-color: white;
+}

@@ -1,0 +1,114 @@
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f0f0f;
+    color: #fff;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff4500;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    background-image: url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1973530/header.jpg?t=1711352565');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #222;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.card p {
+    font-size: 16px;
+    color: #bbb;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    color: #888;
+}

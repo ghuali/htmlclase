@@ -1,0 +1,55 @@
+div{
+    border: solid 2px #000;
+    height: 40px;
+    width: 200px;
+}
+.color1{
+    background-color: rgba(255, 0, 100,1);
+    text-align: center;
+
+}
+.color2{
+    background-color: rgba(255, 0, 100,0.90);
+    text-align: center;
+
+}
+.color3{
+    background-color: rgba(255, 0, 100,0.80);
+    text-align: center;
+
+}
+.color4{
+    background-color: rgba(255, 0, 100,0.70);
+    text-align: center;
+
+}
+.color5{
+    background-color: rgba(255, 0, 100,0.60);
+    text-align: center;
+
+}
+.color6{
+    background-color: rgba(255, 0, 100,0.50);
+    text-align: center;
+
+}
+.color7{
+    background-color: rgba(255, 0, 100,0.40);
+    text-align: center;
+
+}
+.color8{
+    background-color: rgba(255, 0, 100,0.30);
+    text-align: center;
+
+}
+.color9{
+    background-color: rgba(255, 0, 100,0.20);
+    text-align: center;
+
+}
+.color10{
+    background-color: rgba(255, 0, 100,10);
+    text-align: center;
+
+}

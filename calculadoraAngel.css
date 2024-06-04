@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculadora{
+    min-height: 400px;
+    min-width: 150px;
+    padding: 16px;
+    background-color: #212020;
+    border-radius: 8px;
+
+    display: grid;
+    grid-template:
+        "pantalla pantalla pantalla pantalla" auto
+        "tecla17 tecla18 tecla19 tecla20" 1fr
+        "tecla13 tecla14 tecla15 tecla16" 1fr
+        "tecla09 tecla10 tecla11 tecla12" 1fr
+        "tecla05 tecla06 tecla07 tecla08" 1fr
+        "tecla01 tecla02 tecla03 tecla03" 1fr;
+        row-gap: 4px;
+        column-gap: 4px;
+}
+#pantalla{
+    grid-area: pantalla;
+
+    padding: 10px;
+    font-size: 3em;
+    border-color: lightblue;
+}
+.calculadora button{
+    font-size: 2em;
+}
+.calculadora button:last-child{
+    grid-area: tecla03;
+}

@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Buscador{
+    background-color: lightsteelblue;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 1200px;
+}
+textarea, input {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    resize: none;
+
+}
+button {
+    padding: 10px 30px;
+    margin-bottom: 10px;
+}
+#Buscar{
+    margin-right: 10px;
+}
+#Info {
+    border: 2px solid gray;
+    min-height: 40px;
+    margin-bottom: 10px;
+}
+#resultado {
+    border: 2px solid gray;
+    min-height: 40px;
+}
+.encontrado {
+    border-color: yellow;
+}

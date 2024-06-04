@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c3e50;
+    font-family: sans-serif;
+}
+#contenedor{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #34495e;
+    
+}
+textarea{
+    background-color: #2c3e50;
+    color: white;
+    border: 0;
+    resize: none;
+    border-radius: 5px;
+}
+h1{
+    font-size: 2em;
+    height: 35%;
+    color: white;
+    padding: 0 20px;
+    text-align: center;
+
+}
+#informacion p{
+    color: white;
+    font-size: 1.25;
+}

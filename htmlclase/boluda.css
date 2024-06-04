@@ -1,0 +1,42 @@
+/* Fuentes. */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Ajustes globales. */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+    font-family: Montserrat, sans-serif;
+}
+
+/*  Layout. */
+body { 
+    display: grid;
+    grid-template: 
+        "body01" auto
+        "body02" auto
+        "body03" auto /
+        1fr;
+}
+header {grid-area: body01;}
+main   {grid-area: body02;}
+footer {grid-area: body03;}
+
+/* Pruebas. */
+/* header {
+    border: 2px solid red;
+    margin: 0 10px;
+} */
+/* main {
+    border: 2px solid blue;
+    margin: 0 10px;
+} */

@@ -1,0 +1,64 @@
+/* Layout. */
+body{
+    display: grid;
+    grid-template: 
+    "header" 80px
+    /auto;
+}
+header{
+    grid-area: header;
+    
+}
+nav{
+    width: 100%;
+    height: 52px;
+    
+    display: grid;
+    grid-template-areas: "header1 espacio header3";
+    grid-template-columns: 3fr 3fr 0.2fr;
+    grid-auto-rows: 1fr;
+
+    
+}
+
+/* Estilos. */
+.header-nav {
+    width: 100%;
+    height: 100%;;
+    margin: 0 10px;
+    align-items: center;
+}
+.titulo {
+    color: #666666;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+}
+.menu {
+    display: flex;
+    justify-self: end;
+    list-style-type: none;
+    
+}
+.opcion {
+    text-decoration: none;
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.boton {
+    text-decoration: none;
+    color: #428bca;
+    line-height: 1.4;
+    font-size: 14px;
+    padding: 5px;
+    border: solid;
+    border-radius: 10px;
+    border-color: #428bca;
+}
+/* Pruebas. */
+/* .header-nav {
+    border: 2px solid green;
+} */

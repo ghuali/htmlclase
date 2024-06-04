@@ -1,0 +1,142 @@
+/* Layout. */
+.tarjetas {
+    display: grid;
+    grid-template: "area1" "area2" "area3" "area4";
+    grid-template-columns: 3fr,3fr,3fr,3fr;
+grid-template-rows: auto;
+}
+/* Estilos. */
+main {
+    margin: 0 10px;
+    justify-items: center;
+    display: grid;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    margin: 10px 0px;
+    justify-items: center;
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.info h1 {
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0 0 20px;
+    justify-content: center;
+}
+.info p {
+    color: #666666;
+    font-size: 17px;
+    line-height: 1.625;   
+    text-align: center; 
+    margin: 0 0 20px;
+}
+.info a {
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #fff;
+}
+.info-boton{
+    border: solid #428bca;
+    background-color: #428bca;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.destacados {
+    margin: 20px 0px;
+    width: 100%;
+    max-width: 1140px;
+    column-gap: 32px; 
+    
+   display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.destacado {
+    color: #428bca;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.625;
+    text-align: center;
+}
+
+.tarjetas {
+    width: 100%;
+    max-width: 1140px;  
+    gap: 32px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    
+    
+}
+.tarjeta {
+    text-decoration: none;
+    justify-items: center;
+    width: 100%;
+     ;
+     border: solid 1px;
+}
+.t1-tarjeta{
+    grid-area: "area1";
+    border: 1px solid;
+}
+
+.t2-tarjeta{
+    grid-area: "area2";
+    border: 1px solid;
+}
+
+.t3-tarjeta{
+    grid-area: "area3";
+    border: 1px solid;
+}
+
+.t4-tarjeta{
+    grid-area: "area4";
+    border: 1px solid;
+}
+.tarjeta > * {
+    padding: 15px;
+}
+.tarjeta img {
+    height: 125px;
+}
+.tarjeta h3 {
+    min-height: 50px;
+    color: #4489C8;
+    font-size: 20px;
+    font-weight: bold; 
+    line-height: 1.2;   
+    text-align: center;
+}
+.tarjeta p {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400; 
+    line-height: 1.5;   
+    text-align: center;    
+}
+.t4{
+    grid-area: ta4;
+}

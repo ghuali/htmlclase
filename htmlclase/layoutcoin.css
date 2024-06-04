@@ -1,0 +1,22 @@
+
+
+body{
+    display: grid;
+    grid-template: 
+    "header" 80px
+    "main" auto
+    "footer" 300px /
+    auto;
+}
+header{
+    grid-area: header;
+    background-color: red;
+}
+main{
+    grid-area: main;
+    background-color: blue;
+}
+footer{
+    grid-area: footer;
+    background-color: green;
+}

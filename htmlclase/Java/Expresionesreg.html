@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador con expresiones regulares</title>
+    <link rel="stylesheet" href="expresionesAngel.css">
+</head>
+<body>
+    <h3>Buscador con expresiones regulares</h3>
+    <div id="buscador">
+        <form>
+            <label for="texto">Texto:</label>
+            <textarea id="texto" cols="30" rows="10"></textarea>
+            <label for="patron">Patrón de busquedad:</label>
+            <select name="elegir" id="opciones">
+                <option value="manual" id="Entrada maunal">Entrada manual</option>
+                <option value="ipv4" id="Direccion_IPv4">Direccion_IPv4</option>
+                <option value="mac" id="Direccion_MAC">Direccion_MAC</option>
+                <option value="dni" id="DNI">Direccion_DNI</option>
+                <option value="numero" id="Numero">Número</option>
+            </select> <br>
+            <label for="expresion">expresiones regulares</label>
+            <label for="patron">ptron de busquedad</label>
+            <input id="patron" type="text">
+        </form>
+        <button id="btnBuscar">Buscar</button>
+
+        <button id="btnLimpiar">Limpiar</button>
+
+        <div id="informacion"></div>
+
+        <div id="resultado"></div>
+
+    </div>
+
+    <script src="Expresionesreg.js"></script>
+</body>
+</html>

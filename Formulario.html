@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro - Mi web</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="pagina de registro">
+    <meta name="keywords" content="registro">
+</head>
+<body>
+    <form action="/action_page.php">
+        <label for="fname">Nombre:</label><br>
+        <input type="text" id="fname" name="fname" value="" maxlength="50"><br>
+        <label for="lname">Apellidos:</label><br>
+        <input type="text" id="lname" name="lname" value="" maxlength="50"><br><br>
+        <label for="genero">Selecciona tu género:</label>
+        <select id="genero" name="genero">
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+        <option value="otro">Otro</option>
+        <option value="prefiero-no-decirlo">Prefiero no decirlo</option>
+        </select>
+        <br>
+        <label for="fname">Deseo recibir información sobre novedades
+            y ofertas</label><br>
+        <input type="checkbox" id="información" name="información" value=""><br> 
+        <label for="fname">Declaro haber leído y aceptar las
+            condiciones generales del programa y la normativa sobre protección de datos</label><br>
+        
+        <input type="checkbox" id="condiciones" name="condiciones" value=""><br> 
+        <input type="submit" value="Submit">
+        </form>

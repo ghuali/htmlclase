@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculasvistas>
+    <peliculas>  
+        <posicion>1</posicion>
+        <titulo>El reino del planeta de los simios</titulo>
+        <genero>Ciencia ficcion</genero>
+        <semanas>2</semanas>
+        <recaudacion>1.221.000 €</recaudacion>
+        <recaudaciontotal>4.017.000 €</recaudaciontotal>
+        <imagen>https://pics.filmaffinity.com/kingdom_of_the_planet_of_the_apes-598062850-mmed.jpg</imagen>
+    </peliculas>
+    <peliculas>  
+        <posicion>2</posicion>
+        <titulo>The Fall Guy (Serie de TV)</titulo>
+        <genero>Serie de TV</genero>
+        <semanas>4</semanas>
+        <recaudacion>164.000 €</recaudacion>
+        <recaudaciontotal>2.662.000 €</recaudaciontotal>
+        <imagen>https://pics.filmaffinity.com/the_fall_guy-872791837-mmed.jpg</imagen>
+    </peliculas>
+    <peliculas>  
+        <posicion>3</posicion>
+        <titulo>Kung Fu Panda 4</titulo>
+        <genero>Animacion</genero>
+        <semanas>11</semanas>
+        <recaudacion>8.000 €</recaudacion>
+        <recaudaciontotal>9.800.000 €</recaudaciontotal>
+        <imagen>https://pics.filmaffinity.com/kung_fu_panda_4-159494298-large.jpg</imagen>
+    </peliculas>
+    <peliculas>  
+        <posicion>4</posicion>
+        <titulo>Abigail</titulo>
+        <genero>Terror</genero>
+        <semanas>5</semanas>
+        <recaudacion>2.000 €</recaudacion>
+        <recaudaciontotal>833.000 €</recaudaciontotal>
+        <imagen>https://pics.filmaffinity.com/abigail-996335746-mmed.jpg</imagen>
+    </peliculas>
+    <peliculas>  
+        <posicion>5</posicion>
+        <titulo>Migración. Un viaje patas arriba</titulo>
+        <genero>Animacion</genero>
+        <semanas>22</semanas>
+        <recaudacion>00 €</recaudacion>
+        <recaudaciontotal>6.723.000 €</recaudaciontotal>
+        <imagen>https://pics.filmaffinity.com/migration-919147712-mmed.jpg</imagen>
+    </peliculas>
+</peliculasvistas>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cochesvendidos>
+    <coche category="urbano">
+        <category>urbano</category>
+        <posicion>1</posicion>
+        <marca>fiat</marca>
+        <modelo>500</modelo>
+        <unidades>15887</unidades>
+    </coche>
+    <coche category="urbano">
+        <category>urbano</category>
+        <posicion>2</posicion>
+        <marca>Hyundai</marca>
+        <modelo>i10</modelo>
+        <unidades>4473</unidades>
+    </coche>
+    <coche category="urbano">
+        <category>urbano</category>
+        <posicion>3</posicion>
+        <marca>fiat</marca>
+        <modelo>Panda</modelo>
+        <unidades>3937</unidades>
+    </coche>
+    <coche category="urbano">
+        <category>urbano</category>
+        <posicion>4</posicion>
+        <marca>Kia</marca>
+        <modelo>Picanto</modelo>
+        <unidades>3744</unidades>
+    </coche>
+    <coche category="urbano">
+        <category>urbano</category>
+        <posicion>5</posicion>
+        <marca>Toyota</marca>
+        <modelo>Aygo X</modelo>
+        <unidades>2706</unidades>
+    </coche>
+    <coche category="utilitarios">
+        <category>utilitarios</category>
+        <posicion>1</posicion>
+        <marca>Dacia</marca>
+        <modelo>Sandero</modelo>
+        <unidades>27951</unidades>
+    </coche>
+    <coche category="utilitarios">
+        <category>utilitarios</category>
+        <posicion>2</posicion>
+        <marca>Seat</marca>
+        <modelo>Ibiza</modelo>
+        <unidades>16644</unidades>
+    </coche>
+    <coche category="utilitarios">
+        <category>utilitarios</category>
+        <posicion>3</posicion>
+        <marca>Renault</marca>
+        <modelo>Clio</modelo>
+        <unidades>16189</unidades>
+    </coche>
+    <coche category="utilitarios">
+        <category>utilitarios</category>
+        <posicion>4</posicion>
+        <marca>Opel</marca>
+        <modelo>Corsa</modelo>
+        <unidades>14955</unidades>
+    </coche>
+    <coche category="utilitarios">
+        <category>utilitarios</category>
+        <posicion>5</posicion>
+        <marca>Peugeot</marca>
+        <modelo>208</modelo>
+        <unidades>13514</unidades>
+    </coche>
+    <coche category="Compactos">
+        <category>Compactos</category>
+        <posicion>1</posicion>
+        <marca>Toyota</marca>
+        <modelo>Corolla</modelo>
+        <unidades>19845</unidades>
+    </coche>
+    <coche category="Compactos">
+        <category>Compactos</category>
+        <posicion>2</posicion>
+        <marca>Citroen</marca>
+        <modelo>C4</modelo>
+        <unidades>11544</unidades>
+    </coche>
+    <coche category="Compactos">
+        <category>Compactos</category>
+        <posicion>3</posicion>
+        <marca>Audi</marca>
+        <modelo>A3</modelo>
+        <unidades>7663</unidades>
+    </coche>
+    <coche category="Compactos">
+        <category>Compactos</category>
+        <posicion>4</posicion>
+        <marca>Kia</marca>
+        <modelo>Ceed</modelo>
+        <unidades>7157</unidades>
+    </coche>
+    <coche category="Compactos">
+        <category>Compactos</category>
+        <posicion>5</posicion>
+        <marca>Ford</marca>
+        <modelo>Focus</modelo>
+        <unidades>7085</unidades>
+    </coche>
+</cochesvendidos>

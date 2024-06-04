@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Change the number to fit your design */
+    grid-gap: 10px; /* Change the value to adjust the spacing */
+    width: 100%;
+}
+
+.grid-item1 {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+}

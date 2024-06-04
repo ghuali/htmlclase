@@ -1,0 +1,25 @@
+/* Ajustes globales. */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+    color: #010101;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+/*  Layout. */
+body { 
+    display: grid;
+    grid-template: 
+        "body01" auto
+        "body02" auto /
+        1fr;
+}
+header {grid-area: body01;}
+main   {grid-area: body02;}

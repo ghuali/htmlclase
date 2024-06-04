@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #29AAE1;
+    padding: 25px 15px;
+    height: 100vh;
+    width: 100vh;
+    overflow: visible;
+
+
+    display: grid;
+    grid-area:  "Titulo"
+                "Tarjeta";
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    grid-area: Titulo;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+main>a{
+    color: #fff;
+    font-size:250px;
+    text-decoration: none;
+    margin: 25px;
+}
+
+#tarjeta{
+    grid-area: tarjeta;
+    border: solid black 1px;
+    max-width: 800px;
+    max-height: 700px;
+    grid-area: tarjeta;
+    display: grid;
+    grid-template: "area1 area2"  4fr
+                   "area3 area2"  2fr/
+                    4fr   2fr;
+    background-color: #0693e3;
+}
+#info{
+    grid-area: area1;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    
+}
+#num{
+    font-size: 200px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+
+}
+#nombre{
+    font-size: 85px;
+    color: #fff;
+}
+
+#duo{
+    grid-area: area3;
+    display: flex;
+    flex-direction: row;
+}
+
+#nacionalidad{
+    border: #fff solid 1px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: #085581;
+}
+#nacionalidad>img{
+    height: 50px;
+}
+#nacionalidad>p{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+#puntos{
+    border: #fff solid 1px;
+    height: 50px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-color: #085581;
+
+}
+#foto{
+    grid-area: area2;
+    display: flex;
+    justify-content: end;
+    
+}
+#foto > img{
+    height: 625px;
+
+}
