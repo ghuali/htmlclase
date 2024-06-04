@@ -1,42 +1,48 @@
 {
-"Sinners":[
+    "jugadores":[
     {"posicion":1,
-    "nombre":"Yi sang",
+    "nombre":"Arturo Coello",
+
+    
+    "bandera":"https://www.padelfip.com/wp-content/uploads/2023/02/Spain_Fip.jpg",
+    "abreviatura":"ESP",
+
+    "puntos":12705,
     "imagen":"https://www.padelfip.com/wp-content/uploads/2023/02/01-COELLO.png"},
         
-    {"posicion":2,
-    "nombre":"Faust",
-    "imagen":"https://www.padelfip.com/wp-content/uploads/2023/02/01-COELLO.png"},
+    {"posicion2":2,
+    "nombre2":"Alejandro Galan",
+    "bandera2":"https://www.padelfip.com/wp-content/uploads/2023/02/Spain_Fip.jpg",
+    "abreviatura2":"ESP",
+    "puntos2":10910,
+    "imagen2":"https://www.padelfip.com/wp-content/uploads/2023/02/02-GALAN.png"},
 
-    {"posicion":3,
-    "nombre":"Don quixote",
-    "imagen":"https://www.padelfip.com/wp-content/uploads/2023/02/01-COELLO.png"},
-    {"posicion":4,
-    "nombre":"Ryoshu",
-    "imagen":"https://www.padelfip.com/wp-content/uploads/2023/02/01-COELLO.png"},
-    {"posicion":5,
-    "nombre":"Meursault",
-    "imagen":"https://www.padelfip.com/wp-content/uploads/2023/02/01-COELLO.png"},
-    {"posicion":6,
-    "nombre":"Hong lu",
-    "imagen":"https://www.padelfip.com/wp-content/uploads/2023/02/01-COELLO.png"},
-    {"posicion":7,
-    "nombre":"Heathcliff",
-    "imagen":"https://www.padelfip.com/wp-content/uploads/2023/02/01-COELLO.png"},
-    {"posicion":8,
-    "nombre":"ishmael",
-    "imagen":"https://www.padelfip.com/wp-content/uploads/2023/02/01-COELLO.png"},
-    {"posicion":9,
-    "nombre":"Rodion",
-    "imagen":"https://www.padelfip.com/wp-content/uploads/2023/02/01-COELLO.png"},
-    {"posicion":11,
-    "nombre":"Sinclair",
-    "imagen":"https://www.padelfip.com/wp-content/uploads/2023/02/01-COELLO.png"},
-    {"posicion":12,
-    "nombre":"Outis",
-    "imagen":"https://www.padelfip.com/wp-content/uploads/2023/02/01-COELLO.png"},
-    {"posicion":13,
-    "nombre":"Gregor",
-    "imagen":"https://www.padelfip.com/wp-content/uploads/2023/02/01-COELLO.png"},
+    {"posicion3":3,
+    "nombre3":"Agustin Tapia",
+
+    
+    "bandera3":"https://www.padelfip.com/wp-content/uploads/2023/02/Argentina_Fip.jpg",
+    "abreviatura3":"ARG"
+    ,
+    "puntos3":10676,
+    "imagen3":"https://www.padelfip.com/wp-content/uploads/2023/02/04-TAPIA-2.png"},
+    {"posicion4":4,
+    "nombre4":"Juan Lebron",
+
+    
+    "bandera4":"https://www.padelfip.com/wp-content/uploads/2023/02/Spain_Fip.jpg",
+    "abreviatura4":"ESP"
+,
+    "puntos4":9925,
+    "imagen4":"https://www.padelfip.com/wp-content/uploads/2023/02/2-Lebron.png"},
+    {"posicion5":5,
+    "nombre5":"Martin Di Nenno",
+
+    
+    "bandera5":"https://www.padelfip.com/wp-content/uploads/2023/02/Argentina_Fip.jpg",
+    "abreviatura":"ARG"
+    ,
+    "puntos5":8935,
+    "imagen5":"https://www.padelfip.com/wp-content/uploads/2023/02/05-DI-NENNO.png"}
     ]
 }
