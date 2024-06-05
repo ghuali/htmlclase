@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sinners>
+    <sinner>
+        <nombre>yi sang</nombre>
+        <skill1>Deflect</skill1>
+        <skill2>End-stop Stab</skill2>
+        <skill3>Enjamb</skill3>
+    </sinner>
+    <sinner>
+        <nombre>Faust</nombre>
+        <skill1>Downward Slash</skill1>
+        <skill2>Upward Slash</skill2>
+        <skill3>Drilling Stab</skill3>
+    </sinner>
+    <sinner>
+        <nombre>Don quixote</nombre>
+        <skill1>Joust</skill1>
+        <skill2>Galloping Tilt</skill2>
+        <skill3>For Justice!</skill3>
+    </sinner>
+    <sinner>
+        <nombre>Ryoshu</nombre>
+        <skill1>Paint</skill1>
+        <skill2>Splatter</skill2>
+        <skill3>Brushstroke</skill3>
+    </sinner>
+    <sinner>
+        <nombre>Meursault</nombre>
+        <skill1>Un, Deux</skill1>
+        <skill2>Nailing Fist</skill2>
+        <skill3>Des Coups</skill3>
+    </sinner>
+    <sinner>
+        <nombre>Hong Lu</nombre>
+        <skill1>Downward Cleave</skill1>
+        <skill2>Dual Strike</skill2>
+        <skill3>Whirlwind</skill3>
+    </sinner>
+    <sinner>
+        <nombre>Heathcliff</nombre>
+        <skill1>Bat Bash</skill1>
+        <skill2>Smackdown</skill2>
+        <skill3>Upheaval</skill3>
+    </sinner>
+    <sinner>
+        <nombre>Ishmael</nombre>
+        <skill1>Loggerhead</skill1>
+        <skill2>Slide</skill2>
+        <skill3>Shield Bash</skill3>
+    </sinner>
+    <sinner>
+        <nombre>Rodion</nombre>
+        <skill1>Strike Down</skill1>
+        <skill2>Axe Combo</skill2>
+        <skill3>Slay</skill3>
+    </sinner>
+    <sinner>
+        <nombre>Sinclair</nombre>
+        <skill1>Downward Swing</skill1>
+        <skill2>Halberd Combo</skill2>
+        <skill3>Ravaging Cut</skill3>
+    </sinner>
+    <sinner>
+        <nombre>Outis</nombre>
+        <skill1>Pulled Blade</skill1>
+        <skill2>Backslash</skill2>
+        <skill3>Piercing Thrust</skill3>
+    </sinner>
+    <sinner>
+        <nombre>Gregor</nombre>
+        <skill1>Swipe</skill1>
+        <skill2>Jag</skill2>
+        <skill3>Chop Up</skill3>
+    </sinner>
+
+    
+</sinners>

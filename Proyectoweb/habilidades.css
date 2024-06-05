@@ -1,0 +1,120 @@
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f0f0f;
+    color: #fff;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff4500;
+}
+
+main {
+    padding: 20px;
+}
+.hero {
+    background-image: url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1973530/header.jpg?t=1711352565');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    color: #888;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+main>a{
+    color: #fff;
+    font-size:250px;
+    text-decoration: none;
+    margin: 25px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+td , th{
+    padding: 10px;
+    border: solid 3px rgb(255, 255, 255);
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+ 
+
+thead{
+    background-color: rgb(238, 10, 10);
+    height: 50px;
+    
+    border: solid 3px rgb(255, 255, 255);
+
+}
+table{
+    border: solid 1px black;
+    height: 450px;
+    background-color: #000000;
+    border: solid 3px rgb(255, 255, 255);
+    border-collapse: collapse;
+
+
+}
