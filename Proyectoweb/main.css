@@ -39,6 +39,15 @@ main {
     padding: 20px;
 }
 
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+  a:link, a:visited {
+    text-decoration: none;
+  }
+
 .hero {
     background-image: url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1973530/header.jpg?t=1711352565');
     background-size: cover;
@@ -46,6 +55,7 @@ main {
     padding: 100px 20px;
     text-align: center;
     position: relative;
+    height: 100px;
 }
 
 .hero::after {
@@ -77,9 +87,15 @@ main {
     margin: 10px;
     padding: 20px;
     width: 300px;
+    max-height: 300px;
+    
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
+}
+
+.card > img{
+    height: 200px;
 }
 
 .card:hover {
@@ -99,6 +115,10 @@ main {
 .card p {
     font-size: 16px;
     color: #bbb;
+}
+.card:hover {
+    color: #ff4500;
+    transition: color 0.3s;
 }
 
 footer {
