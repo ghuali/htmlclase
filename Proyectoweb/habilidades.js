@@ -18,7 +18,7 @@ function myFunction(xml) {
      table=
       "<table>" +
         "<thead>" + 
-          "<tr><th>Nombre</th><th>skill1</th><th>skill2</th><th>skill3</th></tr>" +
+          "<tr><th>Nombre</th><th>Habilidad1</th><th>Habilidad2</th><th>Habilidad3</th></tr>" +
         "</thead>"+
       "<tbody>"
     for (i = 0; i <sinner.length; i++) {
